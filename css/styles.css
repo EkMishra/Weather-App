@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+ 
+}
+html{
+    background: url(../background.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.area{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+.area> #cityInput{
+    position: absolute;
+    left: 10px;
+    padding: 5px;
+    height: 30px;
+    width: 85%;
+}
+.area > #searchButton{
+    position: absolute;
+    right: 10px;
+    background-color: white; 
+    border: white;
+    
+    width:7%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 2%;
+    background: url(../magnifying-glass-search.png) no-repeat;
+    vertical-align: center;
+}
+
+
+
+h1{
+    font-size:1.8em ;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.content{
+    min-height: 150px;
+}
+.main-content{
+    margin:  70px;
+    width: 380px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 15px 20px rgba(0,0,0,0.1);
+
+}
+.wBox{
+    position: relative;
+    
+    margin: 10px 10px 40px;
+    padding:10px;
+    
+    min-height: 200px;
+    
+    
+}
+.container{
+    height: 60%;
+    justify-content: center;
+    align-content: self;
+}
+
+.icon-class{
+    vertical-align: bottom;
+    display: flex;
+    align-items: center;
+    border: none;
+
+}
+.col-md-3{
+    width: 25%;
+    float: inline-start;
+}
+.col-md-9{
+    width: 75%;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+}
+#conditions,#temp{
+    vertical-align: center;
+    margin-left: 10px;
+}
+#temp{
+    margin-left: 15px;
+}
+
+
+.block{
+    height: 30px;
+    width: 20px;
+}
+h2{
+    margin:0 5px 10px;
+}
