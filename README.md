@@ -1,5 +1,6 @@
 # Weather-App
-The Weather App is a simple and user-friendly web application that allows users to check the weather for a specific location with ease. This project utilizes HTML, CSS, and JavaScript to create an interactive weather information retrieval tool
+
+The Weather App is a simple and user-friendly web application that allows users to check the weather for a specific location with ease. This project utilizes HTML, CSS, and JavaScript to create an interactive weather information retrieval tool.
 
 Key Features:
 
@@ -13,3 +14,12 @@ Weather Icon: The app features weather icons to visually represent the current w
 
 Error Handling: Robust error handling ensures users are informed if the city is not found or if there's an issue with the API request.
 
+## Hosted URL
+
+You can access the hosted version of this project [here](https://ekmishra.github.io/Weather-App/).
+
+---
+
+*Thank you for checking out the Weather-App project.*
+
+*Your interest is greatly appreciated.*
